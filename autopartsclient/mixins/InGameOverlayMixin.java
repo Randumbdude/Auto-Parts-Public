@@ -13,7 +13,7 @@ import net.minecraft.client.util.math.MatrixStack;
 @Mixin(InGameOverlayRenderer.class)
 public class InGameOverlayMixin {
 	@Inject(at = { @At("HEAD") }, method = {
-			"renderInWallOverlay(Lnet/minecraft/client/MinecraftClient;Lnet/minecraft/client/util/math/MatrixStack;)V" }, cancellable = true)
+			"renderInWallOverlay(Lnet/minecraft/client/texture/Sprite;Lnet/minecraft/client/util/math/MatrixStack;)V" }, cancellable = true)
 	private static void onRenderUnderwaterOverlay(Sprite sprite, MatrixStack matrices,
 			CallbackInfo ci) {
 		if(BoatClip.isToggled == true) {
