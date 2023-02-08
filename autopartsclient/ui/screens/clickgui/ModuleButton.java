@@ -71,7 +71,10 @@ public class ModuleButton {
 				parent.updateButtons();
 			}
 		}
-		
+
+		//Error right here, we need to check if it's extended before mouse clicked
+                //Should be able to use extended boolean like usual,
+
 		for (Component component : components) {
 			component.mouseClicked(mouseX, mouseY, button);
 		}
