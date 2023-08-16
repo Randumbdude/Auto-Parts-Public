@@ -166,7 +166,7 @@ public class ModuleManager {
 	//modules.add(new HitIndicators());
 	modules.add(new AutoAttack());
 	modules.add(new NoShieldCool());
-	modules.add(new ArrowDamage());
+	//modules.add(new ArrowDamage());
 	//modules.add(new Jesus());
 	modules.add(new NoEnderLook());
     }
