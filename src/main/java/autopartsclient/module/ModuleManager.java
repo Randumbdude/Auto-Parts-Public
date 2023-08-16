@@ -7,7 +7,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import autopartsclient.module.Mod.Category;
-import autopartsclient.module.Combat.ArrowDamage;
+//import autopartsclient.module.Combat.ArrowDamage;
 import autopartsclient.module.Combat.AutoAim;
 import autopartsclient.module.Combat.AutoAttack;
 import autopartsclient.module.Combat.AutoTotem;
