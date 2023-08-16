@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 import autopartsclient.Client;
-import autopartsclient.module.Combat.ArrowDamage;
+//import autopartsclient.module.Combat.ArrowDamage;
 import autopartsclient.module.Exploit.PacketMine;
 import autopartsclient.module.Player.Reach;
 import net.minecraft.client.MinecraftClient;
